@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+:root {
+  --colorprincipal: black;
+  --colorsecundaria: blue;
+  --colordestaque: white;
+  /* --writ:lucinda caligrafy; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    /* unidade de medida para moobile frist
+    sera em viewpor (vh, vw - rem, em */
+    height: 100vh;
+}
+
+
+body {
+background-image: linear-gradient(to top, var(--colorprincipal), var(--colordestaque));
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+header{
+    background-color: var(--colorprincipal);
+    height: 10vh;
+    color: var(--colordestaque);
+
+}
+
+menu,ul{
+    background-color: var(--colorsecundaria);
+    height: 0,8;
+    text-align: center;
+    color: var(--colordestaque);
+}
+
+section{
+    background-color: var(--colorsecundaria);
+    /* heighrt: 100vh; */
+    height: auto;
+    color: var(--colordestaque);
+}
+
+footer{
+    background-color: var(--colorprincipal);
+    height: 0,7vh;
+    color: var(--colordestaque);
+}
+
+button{
+   background-color: var(--colordestaque);
+   width: 7vw;
+   border: solid var(--colordestaque);
+   border-radius: 0.9em;
+}
